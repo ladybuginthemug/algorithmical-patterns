@@ -14,7 +14,8 @@ def hexagonal_gosper():
         }
     }
 
-def draw_lsystem(t, instructions, distance, angle):
+def draw_lsystem(t, instructions, distance):
+    angle = random.choice([15, 30, 45, 60, 75, 90, 105, 120, 135, 150])
     for cmd in instructions:
         if cmd == 'F':
             t.forward(distance)
@@ -40,5 +41,5 @@ instructions = create_lsystem(4, system["axiom"], system["rules"])
 
 t = turtle.Turtle()
 t.speed(0)
-draw_lsystem(t, instructions, 5, 60)
+draw_lsystem(t, instructions, 5)
 turtle.done()
