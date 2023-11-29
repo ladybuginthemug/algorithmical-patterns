@@ -16,9 +16,8 @@ def wallpaper(corna,cornb,side):
                 y_values.append(y)
 
 
-mirror = random.randrange(1,100)
-print(mirror)
-wallpaper(mirror,100,mirror)
+
+wallpaper(20,50,random.randrange(1,100))
 
 
 plt.plot(x_values, y_values, 'ks' , marker='s',markersize=1)

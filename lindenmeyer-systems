@@ -1,8 +1,9 @@
 import turtle
+import random
 
 def hexagonal_gosper():
     return {
-        "axiom": ['X', 'F'],
+        "axiom": ['F','X'],
         "rules": {
             'X': ['X', '+', 'Y', 'F', '+', '+', 'Y', 'F', '-', 'F', 'X', '-', '-', 'F', 'X', 'F', 'X', '-', 'Y', 'F', '+'],
             'Y': ['-', 'F', 'X', '+', 'Y', 'F', 'Y', 'F', '+', '+', 'Y', 'F', '+', 'F', 'X', '-', '-', 'F', 'X', '-', 'Y']
@@ -37,9 +38,9 @@ def create_lsystem(num_generations, axiom, rules):
     return instructions
 
 system = hexagonal_gosper()
-instructions = create_lsystem(4, system["axiom"], system["rules"])
+instructions = create_lsystem(6, system["axiom"], system["rules"])
 
 t = turtle.Turtle()
-t.speed(0)
-draw_lsystem(t, instructions, 5)
+
+draw_lsystem(t, instructions, 10)
 turtle.done()
