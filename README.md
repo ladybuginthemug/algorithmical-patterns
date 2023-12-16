@@ -28,8 +28,9 @@ The wallpaper algorithm implemented in two colors and states:
 - Another one is colorful version of it with loop over the value of side that make it fully animated.
 
 ![Figure_4](https://github.com/ladybuginthemug/algorithmical-patterns/assets/88084724/6e1aa1ad-d9ae-49cf-8c36-87cbc4d72e45)
-![Figure_5](https://github.com/ladybuginthemug/algorithmical-patterns/assets/88084724/6e1aa1ad-d9ae-49cf-8c36-87cbc4d72e45)
+![Figure_5](https://github.com/ladybuginthemug/algorithmical-patterns/assets/88084724/aeedcae9-58bc-49cd-af0b-2491a86ce5b0)
 ![color_wallpaper_animation](https://github.com/ladybuginthemug/algorithmical-patterns/assets/88084724/2d96eb73-a23c-4d5b-842c-f516f800fbc5)
+
 
 
 
