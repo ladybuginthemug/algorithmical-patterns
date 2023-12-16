@@ -1,8 +1,7 @@
 ## Generative Algorithms Repository
 
 
-This repository contains Python implementations of generative algorithms, showcasing mathematical and computational concepts in computer graphics and visual art. The following examples demonstrate the beauty and complexity that can be achieved through Lindenmayer Systems, the Mandelbrot Set, and a Wallpaper Algorithm.
-
+This repository contains Python implementations of generative algorithms, showcasing mathematical and computational concepts in computer graphics and visual art. 
 
 ### Lindenmayer Systems (L-systems)
 L-systems were introduced and developed in 1968 by Aristid Lindenmayer, a Hungarian theoretical biologist and botanist at the University of Utrecht.
