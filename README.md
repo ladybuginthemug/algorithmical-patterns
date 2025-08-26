@@ -4,9 +4,9 @@ So in this repository, I'm nerding out with Python and generative algorithms to 
 
 ### Lindenmayer Systems (L-systems)
 
-Okay so, picture this: it’s 1968, and a Hungarian biologist named Aristid Lindenmayer is out here not just studying plants, but writing rules for how they grow. 
+It’s 1968, and a Hungarian biologist named Aristid Lindenmayer is out here not just studying plants, but writing rules for how they grow. 
 He comes up with something called L-systems, which are basically little instruction sets that simulate how plants develop over time. 
-Think: one cell becomes two, two become four, and suddenly ✨ boom ✨ ferns, flowers, and fractals.
+Think: one cell becomes two, two become four, and suddenly boom  ferns, flowers, and fractals.
 
 <img width="300" height="300" alt="pic" src="https://github.com/ladybuginthemug/algorithmical-patterns/assets/88084724/197e4ecd-2719-47a7-beea-88072fb3054a"/>
 
